@@ -7,4 +7,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return s[:len(s)-n]
+    if n>=0:
+        m = s[:len(s)-n]
+    else:
+        m = s[-n:]
+    return m 
