@@ -1,10 +1,10 @@
 def main(s,n):
     """
-    The s string variable is given. return all characters except n characters at the end.
+   The s string variable is given. return all characters except n characters at the end.
     Args:
         s(str): parameter
-        n(int): parameter
+        n(int ): parameter
     Returns:
         str: answer
     """
-    return
+    return s[:len(s)-n]
