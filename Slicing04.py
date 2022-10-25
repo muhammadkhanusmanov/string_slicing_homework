@@ -5,6 +5,6 @@ def main(s,n):
         s(str): parameter
         n(int): parameter
     Returns:
-        str: answer
+        str: answer    
     """
-    return
+    return s[:n]
